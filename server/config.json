@@ -1,0 +1,27 @@
+{
+    "contractAddress" : "0xc3ac0c1da5bc20819042b90592d0e20f06b6e14c",
+    "abi" : [
+        {
+            "payable": true,
+            "stateMutability": "payable",
+            "type": "fallback"
+        },
+        {
+            "anonymous": false,
+            "inputs": [
+                {
+                    "indexed": false,
+                    "name": "amount",
+                    "type": "uint256"
+                },
+                {
+                    "indexed": false,
+                    "name": "sender",
+                    "type": "address"
+                }
+            ],
+            "name": "TransferToRinkeby",
+            "type": "event"
+        }
+    ]
+}
